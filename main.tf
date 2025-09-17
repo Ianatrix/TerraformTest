@@ -22,6 +22,6 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "MyRG" {
   location = "westus2"
-  name     = "yeet"
+  name     = "yeete"
 
 }
