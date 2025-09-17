@@ -1,0 +1,20 @@
+# Lokale Terraform-Daten
+.terraform/
+
+# Terraform State-Dateien
+*.tfstate
+*.tfstate.*
+
+# Crash Logs
+crash.log
+crash.*.log
+
+# Override-Dateien (lokale Anpassungen, nicht ins Repo)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensible Konfigurationsdateien (lokal)
+.terraformrc
+terraform.rc
